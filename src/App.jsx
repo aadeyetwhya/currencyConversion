@@ -15,6 +15,8 @@ function App() {
 
 const convert=()=>{
   setConvertedAmount(amount*currencies[to]);
+  console.log('hrllo');
+  
 }
 
 const swap=()=>{
