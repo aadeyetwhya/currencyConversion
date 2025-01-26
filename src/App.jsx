@@ -22,12 +22,13 @@ const swap=()=>{
   setTo(from)
   setFrom(temp)
 }
-
+console.log("tested");
 const currencies=getData(from);
 const currencyOptions=Object.keys(currencies);
 
 
   return (
+
     <>
     <div className="mainComponent">
     <h1 style={{color:'white',paddingBottom:'8px'}}>Currency Converter</h1>
